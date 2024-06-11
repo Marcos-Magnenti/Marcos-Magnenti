@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Estudos Bíblicos Aplicados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog de Estudos Bíblicos Aplicados</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo ao meu Blog!</h2>
+        <p>Aqui você encontrará reflexões e estudos aplicados sobre as Escrituras Sagradas.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá, meu nome é [Seu Nome]. Sou um estudioso da Bíblia e apaixonado por compartilhar o conhecimento e as lições que a Palavra de Deus nos proporciona.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Título do Post</h3>
+            <p>Conteúdo do post...</p>
+        </article>
+        <!-- Adicione mais posts conforme necessário -->
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato comigo através do e-mail: [Seu E-mail]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Blog de Estudos Bíblicos Aplicados. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
